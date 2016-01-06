@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  iLife Die
+//  iLife Count
 //
 //  Created by Dominick Hera on 3/6/15.
 //  Copyright (c) 2015 Posa. All rights reserved.

@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		252521EA1AAE38D5009622D7 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 252521E91AAE38D5009622D7 /* StoreKit.framework */; };
+		252521EC1AAE38EC009622D7 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 252521EB1AAE38EC009622D7 /* iAd.framework */; };
+		259264E51AB0AD8400F097FE /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259264E41AB0AD8400F097FE /* SettingsViewController.swift */; };
 		259E6A611AAA867C00B9D324 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259E6A601AAA867C00B9D324 /* AppDelegate.swift */; };
 		259E6A631AAA867C00B9D324 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259E6A621AAA867C00B9D324 /* ViewController.swift */; };
 		259E6A661AAA867C00B9D324 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 259E6A641AAA867C00B9D324 /* Main.storyboard */; };
 		259E6A681AAA867C00B9D324 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 259E6A671AAA867C00B9D324 /* Images.xcassets */; };
 		259E6A6B1AAA867C00B9D324 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 259E6A691AAA867C00B9D324 /* LaunchScreen.xib */; };
 		259E6A771AAA867C00B9D324 /* iLife_DieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259E6A761AAA867C00B9D324 /* iLife_DieTests.swift */; };
+		259E6A811AAAE61800B9D324 /* SCLAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259E6A801AAAE61800B9D324 /* SCLAlertView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +30,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		259E6A5B1AAA867C00B9D324 /* iLife Die.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iLife Die.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		252521E91AAE38D5009622D7 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		252521EB1AAE38EC009622D7 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		259264E41AB0AD8400F097FE /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = ../SettingsViewController.swift; sourceTree = "<group>"; };
+		259E6A5B1AAA867C00B9D324 /* iLife Count.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iLife Count.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		259E6A5F1AAA867C00B9D324 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		259E6A601AAA867C00B9D324 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		259E6A621AAA867C00B9D324 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		259E6A651AAA867C00B9D324 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		259E6A671AAA867C00B9D324 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		259E6A6A1AAA867C00B9D324 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		259E6A701AAA867C00B9D324 /* iLife DieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iLife DieTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		259E6A701AAA867C00B9D324 /* iLife CountTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iLife CountTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		259E6A751AAA867C00B9D324 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		259E6A761AAA867C00B9D324 /* iLife_DieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iLife_DieTests.swift; sourceTree = "<group>"; };
+		259E6A801AAAE61800B9D324 /* SCLAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCLAlertView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				252521EC1AAE38EC009622D7 /* iAd.framework in Frameworks */,
+				252521EA1AAE38D5009622D7 /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +69,8 @@
 		259E6A521AAA867C00B9D324 = {
 			isa = PBXGroup;
 			children = (
+				252521EB1AAE38EC009622D7 /* iAd.framework */,
+				252521E91AAE38D5009622D7 /* StoreKit.framework */,
 				259E6A5D1AAA867C00B9D324 /* iLife Die */,
 				259E6A731AAA867C00B9D324 /* iLife DieTests */,
 				259E6A5C1AAA867C00B9D324 /* Products */,
@@ -68,8 +80,8 @@
 		259E6A5C1AAA867C00B9D324 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				259E6A5B1AAA867C00B9D324 /* iLife Die.app */,
-				259E6A701AAA867C00B9D324 /* iLife DieTests.xctest */,
+				259E6A5B1AAA867C00B9D324 /* iLife Count.app */,
+				259E6A701AAA867C00B9D324 /* iLife CountTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,6 +91,8 @@
 			children = (
 				259E6A601AAA867C00B9D324 /* AppDelegate.swift */,
 				259E6A621AAA867C00B9D324 /* ViewController.swift */,
+				259E6A801AAAE61800B9D324 /* SCLAlertView.swift */,
+				259264E41AB0AD8400F097FE /* SettingsViewController.swift */,
 				259E6A641AAA867C00B9D324 /* Main.storyboard */,
 				259E6A671AAA867C00B9D324 /* Images.xcassets */,
 				259E6A691AAA867C00B9D324 /* LaunchScreen.xib */,
@@ -115,9 +129,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		259E6A5A1AAA867C00B9D324 /* iLife Die */ = {
+		259E6A5A1AAA867C00B9D324 /* iLife Count */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 259E6A7A1AAA867C00B9D324 /* Build configuration list for PBXNativeTarget "iLife Die" */;
+			buildConfigurationList = 259E6A7A1AAA867C00B9D324 /* Build configuration list for PBXNativeTarget "iLife Count" */;
 			buildPhases = (
 				259E6A571AAA867C00B9D324 /* Sources */,
 				259E6A581AAA867C00B9D324 /* Frameworks */,
@@ -127,14 +141,14 @@
 			);
 			dependencies = (
 			);
-			name = "iLife Die";
+			name = "iLife Count";
 			productName = "iLife Die";
-			productReference = 259E6A5B1AAA867C00B9D324 /* iLife Die.app */;
+			productReference = 259E6A5B1AAA867C00B9D324 /* iLife Count.app */;
 			productType = "com.apple.product-type.application";
 		};
-		259E6A6F1AAA867C00B9D324 /* iLife DieTests */ = {
+		259E6A6F1AAA867C00B9D324 /* iLife CountTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 259E6A7D1AAA867C00B9D324 /* Build configuration list for PBXNativeTarget "iLife DieTests" */;
+			buildConfigurationList = 259E6A7D1AAA867C00B9D324 /* Build configuration list for PBXNativeTarget "iLife CountTests" */;
 			buildPhases = (
 				259E6A6C1AAA867C00B9D324 /* Sources */,
 				259E6A6D1AAA867C00B9D324 /* Frameworks */,
@@ -145,9 +159,9 @@
 			dependencies = (
 				259E6A721AAA867C00B9D324 /* PBXTargetDependency */,
 			);
-			name = "iLife DieTests";
+			name = "iLife CountTests";
 			productName = "iLife DieTests";
-			productReference = 259E6A701AAA867C00B9D324 /* iLife DieTests.xctest */;
+			productReference = 259E6A701AAA867C00B9D324 /* iLife CountTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -156,11 +170,18 @@
 		259E6A531AAA867C00B9D324 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = Posa;
 				TargetAttributes = {
 					259E6A5A1AAA867C00B9D324 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 47QKBB67M4;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+						};
 					};
 					259E6A6F1AAA867C00B9D324 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -168,7 +189,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 259E6A561AAA867C00B9D324 /* Build configuration list for PBXProject "iLife Die" */;
+			buildConfigurationList = 259E6A561AAA867C00B9D324 /* Build configuration list for PBXProject "iLife Count" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -181,8 +202,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				259E6A5A1AAA867C00B9D324 /* iLife Die */,
-				259E6A6F1AAA867C00B9D324 /* iLife DieTests */,
+				259E6A5A1AAA867C00B9D324 /* iLife Count */,
+				259E6A6F1AAA867C00B9D324 /* iLife CountTests */,
 			);
 		};
 /* End PBXProject section */
@@ -213,7 +234,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				259E6A631AAA867C00B9D324 /* ViewController.swift in Sources */,
+				259E6A811AAAE61800B9D324 /* SCLAlertView.swift in Sources */,
 				259E6A611AAA867C00B9D324 /* AppDelegate.swift in Sources */,
+				259264E51AB0AD8400F097FE /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,7 +253,7 @@
 /* Begin PBXTargetDependency section */
 		259E6A721AAA867C00B9D324 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 259E6A5A1AAA867C00B9D324 /* iLife Die */;
+			target = 259E6A5A1AAA867C00B9D324 /* iLife Count */;
 			targetProxy = 259E6A711AAA867C00B9D324 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -289,7 +312,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -326,7 +349,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -337,20 +360,30 @@
 		259E6A7B1AAA867C00B9D324 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "iLife Die/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "iLife Count";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		259E6A7C1AAA867C00B9D324 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "iLife Die/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "iLife Count";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -368,8 +401,8 @@
 				);
 				INFOPLIST_FILE = "iLife DieTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iLife Die.app/iLife Die";
+				PRODUCT_NAME = "iLife CountTests";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iLife Count.app/iLife Count";
 			};
 			name = Debug;
 		};
@@ -383,15 +416,15 @@
 				);
 				INFOPLIST_FILE = "iLife DieTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iLife Die.app/iLife Die";
+				PRODUCT_NAME = "iLife CountTests";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iLife Count.app/iLife Count";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		259E6A561AAA867C00B9D324 /* Build configuration list for PBXProject "iLife Die" */ = {
+		259E6A561AAA867C00B9D324 /* Build configuration list for PBXProject "iLife Count" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				259E6A781AAA867C00B9D324 /* Debug */,
@@ -400,21 +433,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		259E6A7A1AAA867C00B9D324 /* Build configuration list for PBXNativeTarget "iLife Die" */ = {
+		259E6A7A1AAA867C00B9D324 /* Build configuration list for PBXNativeTarget "iLife Count" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				259E6A7B1AAA867C00B9D324 /* Debug */,
 				259E6A7C1AAA867C00B9D324 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		259E6A7D1AAA867C00B9D324 /* Build configuration list for PBXNativeTarget "iLife DieTests" */ = {
+		259E6A7D1AAA867C00B9D324 /* Build configuration list for PBXNativeTarget "iLife CountTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				259E6A7E1AAA867C00B9D324 /* Debug */,
 				259E6A7F1AAA867C00B9D324 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
